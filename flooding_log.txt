@@ -1,0 +1,598 @@
+[2026-09-08 19:04:19] [Node A] Node started on 127.0.0.1:5001
+[2026-09-08 19:04:21] [Node B] Node started on 127.0.0.1:5002
+[2026-09-08 19:04:23] [Node C] Node started on 127.0.0.1:5003
+[2026-09-08 19:04:25] [Node D] Node started on 127.0.0.1:5004
+[2026-09-08 19:04:27] [Node E] Node started on 127.0.0.1:5005
+[2026-09-08 19:08:31] [Node A] Forwarded packet b8990e68-30dc-45d9-ab48-179964cfae26 to Node B
+[2026-09-08 19:08:31] [Node B] Forwarded packet b8990e68-30dc-45d9-ab48-179964cfae26 to Node E
+[2026-09-08 19:08:31] [Node A] Forwarded packet b8990e68-30dc-45d9-ab48-179964cfae26 to Node C
+[2026-09-08 19:08:31] [Node C] Probabilistic flooding skipped neighbor D
+[2026-09-08 19:08:31] [Node E] Packet delivered: b8990e68-30dc-45d9-ab48-179964cfae26 Path: A -> B -> E
+[2026-09-08 19:08:31] [Node A] Forwarded packet b8990e68-30dc-45d9-ab48-179964cfae26 to Node D
+[2026-09-08 19:08:31] [Node E] Duplicate packet received: b8990e68-30dc-45d9-ab48-179964cfae26
+[2026-09-08 19:08:31] [Node D] Forwarded packet b8990e68-30dc-45d9-ab48-179964cfae26 to Node E
+[2026-09-08 19:08:31] [Node E] Duplicate packet received: b8990e68-30dc-45d9-ab48-179964cfae26
+[2026-09-09 14:58:08] [Node E] Node started on 127.0.0.1:5005
+[2026-09-09 14:58:28] [Node D] Node started on 127.0.0.1:5004
+[2026-09-09 14:58:32] [Node C] Node started on 127.0.0.1:5003
+[2026-09-09 14:58:39] [Node B] Node started on 127.0.0.1:5002
+[2026-09-09 14:58:45] [Node A] Node started on 127.0.0.1:5001
+[2026-09-22 18:22:24.052] [Node A] Node started on 127.0.0.1:5001
+[2026-09-22 18:22:36.184] [Node B] Node started on 127.0.0.1:5002
+[2026-09-22 18:22:49.253] [Node C] Node started on 127.0.0.1:5003
+[2026-09-22 18:22:57.641] [Node D] Node started on 127.0.0.1:5004
+[2026-09-22 18:23:04.745] [Node E] Node started on 127.0.0.1:5005
+[2026-09-22 18:26:09.559] [Node A] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node None
+[2026-09-22 18:26:09.560] [Node A] Unique packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.562] [Node A] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node B
+[2026-09-22 18:26:09.564] [Node A] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node C
+[2026-09-22 18:26:09.567] [Node A] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node D
+[2026-09-22 18:26:09.563] [Node B] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node A
+[2026-09-22 18:26:09.576] [Node B] Unique packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.578] [Node B] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node E
+[2026-09-22 18:26:09.565] [Node C] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node A
+[2026-09-22 18:26:09.589] [Node C] Unique packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.579] [Node E] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node B
+[2026-09-22 18:26:09.592] [Node E] Unique packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.594] [Node E] Packet delivered: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e Path: A -> B -> E
+[2026-09-22 18:26:09.591] [Node C] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node D
+[2026-09-22 18:26:09.604] [Node C] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node E
+[2026-09-22 18:26:09.568] [Node D] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node A
+[2026-09-22 18:26:09.614] [Node D] Unique packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.616] [Node D] Probabilistic flooding skipped neighbor C for packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.618] [Node D] Forwarded packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e to Node E
+[2026-09-22 18:26:09.620] [Node D] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node C
+[2026-09-22 18:26:09.621] [Node D] Duplicate packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.604] [Node E] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node C
+[2026-09-22 18:26:09.627] [Node E] Duplicate packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:26:09.629] [Node E] Received packet d3ad78ac-e65b-45c8-af28-b2dc4e19a70e from Node D
+[2026-09-22 18:26:09.631] [Node E] Duplicate packet received: d3ad78ac-e65b-45c8-af28-b2dc4e19a70e
+[2026-09-22 18:31:59.653] [Node A] Received packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d from Node None
+[2026-09-22 18:31:59.655] [Node A] Unique packet received: 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.657] [Node A] Probabilistic flooding skipped neighbor B for packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.658] [Node A] Forwarded packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d to Node C
+[2026-09-22 18:31:59.661] [Node A] Forwarded packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d to Node D
+[2026-09-22 18:31:59.659] [Node C] Received packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d from Node A
+[2026-09-22 18:31:59.672] [Node C] Unique packet received: 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.673] [Node C] Forwarded packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d to Node D
+[2026-09-22 18:31:59.675] [Node C] Forwarded packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d to Node E
+[2026-09-22 18:31:59.661] [Node D] Received packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d from Node A
+[2026-09-22 18:31:59.684] [Node D] Unique packet received: 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.686] [Node D] Forwarded packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d to Node C
+[2026-09-22 18:31:59.687] [Node D] Probabilistic flooding skipped neighbor E for packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.689] [Node D] Received packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d from Node C
+[2026-09-22 18:31:59.690] [Node D] Duplicate packet received: 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.686] [Node C] Received packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d from Node D
+[2026-09-22 18:31:59.699] [Node C] Duplicate packet received: 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.676] [Node E] Received packet 293fa068-9a45-4eb1-a537-ae87a0dcf50d from Node C
+[2026-09-22 18:31:59.710] [Node E] Unique packet received: 293fa068-9a45-4eb1-a537-ae87a0dcf50d
+[2026-09-22 18:31:59.711] [Node E] Packet delivered: 293fa068-9a45-4eb1-a537-ae87a0dcf50d Path: A -> C -> E
+[2026-09-23 00:27:55.343] [Node A] Node started on 127.0.0.1:5001
+[2026-09-23 00:27:55.344] [Node A] Original neighbors: ['B', 'C', 'D']
+[2026-09-23 00:27:55.346] [Node A] Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-09-23 00:28:08.037] [Node B] Node started on 127.0.0.1:5002
+[2026-09-23 00:28:08.038] [Node B] Original neighbors: ['A', 'E']
+[2026-09-23 00:28:08.040] [Node B] Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-09-23 00:28:16.909] [Node C] Node started on 127.0.0.1:5003
+[2026-09-23 00:28:16.910] [Node C] Original neighbors: ['A', 'D', 'E']
+[2026-09-23 00:28:16.912] [Node C] Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-09-23 00:28:35.131] [Node D] Node started on 127.0.0.1:5004
+[2026-09-23 00:28:35.132] [Node D] Original neighbors: ['A', 'C', 'E']
+[2026-09-23 00:28:35.134] [Node D] Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-09-23 00:28:42.544] [Node E] Node started on 127.0.0.1:5005
+[2026-09-23 00:28:42.545] [Node E] Original neighbors: ['B', 'C', 'D']
+[2026-09-23 00:28:42.547] [Node E] Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-09-23 00:36:27.855] [Node A] Node started on 127.0.0.1:5001
+[2026-09-23 00:36:27.856] [Node A] Original neighbors: ['B', 'C', 'D']
+[2026-09-23 00:36:27.858] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:27.859] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:27.861] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:28.859] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:28.861] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:28.862] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:29.861] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:29.862] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:29.863] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:30.862] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-23 00:36:30.863] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-23 00:36:30.864] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-23 00:36:30.865] [Node A] Active neighbors after failure: ['D']
+[2026-09-23 00:36:30.867] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:36:30.867] [Node A] Active neighbors after failure: []
+[2026-09-23 00:36:30.862] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:30.875] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:54.574] [Node A] Node started on 127.0.0.1:5001
+[2026-09-23 00:36:54.575] [Node A] Original neighbors: ['B', 'C', 'D']
+[2026-09-23 00:36:54.577] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:54.578] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:54.579] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:55.578] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:55.579] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:55.580] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:56.579] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:56.581] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:56.582] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:57.580] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:57.582] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:57.583] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:36:57.581] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-23 00:36:57.593] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-23 00:36:57.594] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-23 00:36:57.595] [Node A] Active neighbors after failure: ['D']
+[2026-09-23 00:36:57.596] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:36:57.597] [Node A] Active neighbors after failure: []
+[2026-09-23 00:37:15.725] [Node B] Node started on 127.0.0.1:5002
+[2026-09-23 00:37:15.726] [Node B] Original neighbors: ['A', 'E']
+[2026-09-23 00:37:15.728] [Node A] TOPOLOGY RECOVERY: Node B
+[2026-09-23 00:37:15.728] [Node B] WinError 10054 received; node continues running
+[2026-09-23 00:37:16.728] [Node B] WinError 10054 received; node continues running
+[2026-09-23 00:37:17.729] [Node B] WinError 10054 received; node continues running
+[2026-09-23 00:37:18.730] [Node B] WinError 10054 received; node continues running
+[2026-09-23 00:37:18.731] [Node B] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-23 00:37:18.742] [Node B] Active neighbors after failure: ['A']
+[2026-09-23 00:37:39.932] [Node C] Node started on 127.0.0.1:5003
+[2026-09-23 00:37:39.933] [Node C] Original neighbors: ['A', 'D', 'E']
+[2026-09-23 00:37:39.935] [Node A] TOPOLOGY RECOVERY: Node C
+[2026-09-23 00:37:39.935] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:39.947] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:40.936] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:40.937] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:41.936] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:41.937] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:42.938] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:42.939] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:37:42.938] [Node C] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:37:42.949] [Node C] Active neighbors after failure: ['A', 'E']
+[2026-09-23 00:37:42.951] [Node C] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-23 00:37:42.951] [Node C] Active neighbors after failure: ['A']
+[2026-09-23 00:37:48.687] [Node D] Node started on 127.0.0.1:5004
+[2026-09-23 00:37:48.688] [Node D] Original neighbors: ['A', 'C', 'E']
+[2026-09-23 00:37:48.690] [Node C] TOPOLOGY RECOVERY: Node D
+[2026-09-23 00:37:48.690] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:37:48.690] [Node A] TOPOLOGY RECOVERY: Node D
+[2026-09-23 00:37:49.691] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:37:50.691] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:37:51.693] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:47:47.094] [Node D] Node shutting down
+[2026-09-23 00:47:47.450] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:47:48.094] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:47:48.451] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:47:49.095] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:47:49.451] [Node C] WinError 10054 received; node continues running
+[2026-09-23 00:47:49.461] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:47:49.462] [Node A] Active neighbors after failure: ['B', 'C']
+[2026-09-23 00:47:49.679] [Node C] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:47:49.680] [Node C] Active neighbors after failure: ['A']
+[2026-09-23 00:47:58.689] [Node D] Node started on 127.0.0.1:5004
+[2026-09-23 00:47:58.690] [Node D] Original neighbors: ['A', 'C', 'E']
+[2026-09-23 00:47:58.692] [Node A] TOPOLOGY RECOVERY: Node D
+[2026-09-23 00:47:58.692] [Node C] TOPOLOGY RECOVERY: Node D
+[2026-09-23 00:47:58.692] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:47:59.693] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:48:00.694] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:48:01.695] [Node D] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-23 00:48:01.696] [Node D] Active neighbors after failure: ['A', 'C']
+[2026-09-23 00:49:31.430] [Node E] Node started on 127.0.0.1:5005
+[2026-09-23 00:49:31.431] [Node E] Original neighbors: ['B', 'C', 'D']
+[2026-09-23 00:49:31.433] [Node B] TOPOLOGY RECOVERY: Node E
+[2026-09-23 00:49:31.433] [Node C] TOPOLOGY RECOVERY: Node E
+[2026-09-23 00:49:31.433] [Node D] TOPOLOGY RECOVERY: Node E
+[2026-09-23 00:50:01.702] [Node A] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node None
+[2026-09-23 00:50:01.703] [Node A] Unique packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.704] [Node A] Active neighbors: ['B', 'C', 'D']
+[2026-09-23 00:50:01.706] [Node A] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node B using P=0.7 attempt=1
+[2026-09-23 00:50:01.707] [Node A] Probabilistic drop for packet f8d325e2-08ec-4d53-a6f0-887a3474b520 toward Node C attempt=1
+[2026-09-23 00:50:01.709] [Node A] Probabilistic drop for packet f8d325e2-08ec-4d53-a6f0-887a3474b520 toward Node C attempt=2
+[2026-09-23 00:50:01.710] [Node A] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node C using P=0.7 attempt=3
+[2026-09-23 00:50:01.711] [Node A] Probabilistic drop for packet f8d325e2-08ec-4d53-a6f0-887a3474b520 toward Node D attempt=1
+[2026-09-23 00:50:01.712] [Node A] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node D using P=0.7 attempt=2
+[2026-09-23 00:50:01.706] [Node B] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node A
+[2026-09-23 00:50:01.718] [Node B] Unique packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.719] [Node B] Active neighbors: ['A', 'E']
+[2026-09-23 00:50:01.710] [Node C] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node A
+[2026-09-23 00:50:01.722] [Node E] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node B
+[2026-09-23 00:50:01.723] [Node E] Unique packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.724] [Node E] Packet delivered: f8d325e2-08ec-4d53-a6f0-887a3474b520 Path: A -> B -> E
+[2026-09-23 00:50:01.722] [Node B] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node E using P=0.7 attempt=1
+[2026-09-23 00:50:01.722] [Node C] Unique packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.735] [Node C] Active neighbors: ['A', 'D', 'E']
+[2026-09-23 00:50:01.737] [Node C] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node D using P=0.7 attempt=1
+[2026-09-23 00:50:01.738] [Node C] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node E using P=0.7 attempt=1
+[2026-09-23 00:50:01.713] [Node D] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node A
+[2026-09-23 00:50:01.756] [Node D] Unique packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.757] [Node D] Active neighbors: ['A', 'C', 'E']
+[2026-09-23 00:50:01.758] [Node D] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node C using P=0.7 attempt=1
+[2026-09-23 00:50:01.759] [Node D] Probabilistic drop for packet f8d325e2-08ec-4d53-a6f0-887a3474b520 toward Node E attempt=1
+[2026-09-23 00:50:01.739] [Node E] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node C
+[2026-09-23 00:50:01.761] [Node E] Duplicate packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.762] [Node E] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node D
+[2026-09-23 00:50:01.762] [Node E] Duplicate packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.758] [Node C] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node D
+[2026-09-23 00:50:01.771] [Node C] Duplicate packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:01.760] [Node D] Forwarded packet f8d325e2-08ec-4d53-a6f0-887a3474b520 to Node E using P=0.7 attempt=2
+[2026-09-23 00:50:01.783] [Node D] Received packet f8d325e2-08ec-4d53-a6f0-887a3474b520 from Node C
+[2026-09-23 00:50:01.784] [Node D] Duplicate packet received: f8d325e2-08ec-4d53-a6f0-887a3474b520
+[2026-09-23 00:50:38.238] [Node B] Node shutting down
+[2026-09-23 00:50:38.491] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:50:39.239] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:50:39.492] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:50:40.241] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:50:40.493] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:50:40.512] [Node E] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-23 00:50:40.513] [Node E] Active neighbors after failure: ['C', 'D']
+[2026-09-23 00:50:40.699] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-23 00:50:40.700] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-23 00:51:13.967] [Node A] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node None
+[2026-09-23 00:51:13.968] [Node A] Unique packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:51:13.970] [Node A] Active neighbors: ['C', 'D']
+[2026-09-23 00:51:13.971] [Node A] Probabilistic drop for packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef toward Node C attempt=1
+[2026-09-23 00:51:13.972] [Node A] Forwarded packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef to Node C using P=0.7 attempt=2
+[2026-09-23 00:51:13.973] [Node A] Probabilistic drop for packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef toward Node D attempt=1
+[2026-09-23 00:51:13.974] [Node A] Forwarded packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef to Node D using P=0.7 attempt=2
+[2026-09-23 00:51:13.972] [Node C] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node A
+[2026-09-23 00:51:13.984] [Node C] Unique packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:51:13.985] [Node C] Active neighbors: ['A', 'D', 'E']
+[2026-09-23 00:51:13.986] [Node C] Forwarded packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef to Node D using P=0.7 attempt=1
+[2026-09-23 00:51:13.987] [Node C] Forwarded packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef to Node E using P=0.7 attempt=1
+[2026-09-23 00:51:13.988] [Node E] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node C
+[2026-09-23 00:51:13.989] [Node E] Unique packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:51:13.991] [Node E] Packet delivered: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef Path: A -> C -> E
+[2026-09-23 00:51:13.975] [Node D] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node A
+[2026-09-23 00:51:13.997] [Node D] Unique packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:51:13.998] [Node D] Active neighbors: ['A', 'C', 'E']
+[2026-09-23 00:51:13.999] [Node D] Forwarded packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef to Node C using P=0.7 attempt=1
+[2026-09-23 00:51:14.000] [Node D] Forwarded packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef to Node E using P=0.7 attempt=1
+[2026-09-23 00:51:14.002] [Node D] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node C
+[2026-09-23 00:51:14.003] [Node D] Duplicate packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:51:14.000] [Node C] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node D
+[2026-09-23 00:51:14.011] [Node C] Duplicate packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:51:14.001] [Node E] Received packet a31e71cd-bd38-418f-834b-bdbf0a3ae2ef from Node D
+[2026-09-23 00:51:14.023] [Node E] Duplicate packet received: a31e71cd-bd38-418f-834b-bdbf0a3ae2ef
+[2026-09-23 00:52:43.347] [Node C] Node shutting down
+[2026-09-23 00:52:43.603] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:52:43.947] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:52:44.348] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:52:44.603] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:52:44.948] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:52:45.348] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:52:45.604] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:52:45.909] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-23 00:52:45.911] [Node A] Active neighbors after failure: ['D']
+[2026-09-23 00:52:45.948] [Node D] WinError 10054 received; node continues running
+[2026-09-23 00:52:46.084] [Node D] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-23 00:52:46.085] [Node D] Active neighbors after failure: ['A', 'E']
+[2026-09-23 00:52:46.180] [Node E] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-23 00:52:46.182] [Node E] Active neighbors after failure: ['D']
+[2026-09-23 00:53:00.960] [Node D] Node shutting down
+[2026-09-23 00:53:01.361] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:53:01.618] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:53:02.363] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:53:02.620] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:53:03.363] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:53:03.620] [Node E] WinError 10054 received; node continues running
+[2026-09-23 00:53:04.208] [Node E] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:53:04.209] [Node E] Active neighbors after failure: []
+[2026-09-23 00:53:04.364] [Node A] WinError 10054 received; node continues running
+[2026-09-23 00:53:04.437] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-23 00:53:04.439] [Node A] Active neighbors after failure: []
+[2026-09-23 00:53:23.249] [Node A] Received packet 4e7de907-0d1f-4b00-aba0-0d6a5d98dcfb from Node None
+[2026-09-23 00:53:23.250] [Node A] Unique packet received: 4e7de907-0d1f-4b00-aba0-0d6a5d98dcfb
+[2026-09-23 00:53:23.252] [Node A] Active neighbors: []
+[2026-09-24 14:38:16.440] [Node A] Node started on 127.0.0.1:5001
+[2026-09-24 14:38:16.443] [Node A] Original neighbors: ['B', 'C', 'D']
+[2026-09-24 14:38:16.447] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:16.449] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:16.450] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:17.448] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:17.450] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:17.452] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:18.450] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:18.452] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:18.453] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:19.450] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:19.453] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:19.455] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-24 14:38:19.456] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-24 14:38:19.458] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-24 14:38:19.460] [Node A] Active neighbors after failure: ['D']
+[2026-09-24 14:38:19.463] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-24 14:38:19.464] [Node A] Active neighbors after failure: []
+[2026-09-24 14:38:19.455] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:38:27.088] [Node B] Node started on 127.0.0.1:5002
+[2026-09-24 14:38:27.090] [Node B] Original neighbors: ['A', 'E']
+[2026-09-24 14:38:27.092] [Node A] TOPOLOGY RECOVERY: Node B
+[2026-09-24 14:38:27.093] [Node B] WinError 10054 received; node continues running
+[2026-09-24 14:38:28.094] [Node B] WinError 10054 received; node continues running
+[2026-09-24 14:38:29.095] [Node B] WinError 10054 received; node continues running
+[2026-09-24 14:38:30.096] [Node B] WinError 10054 received; node continues running
+[2026-09-24 14:38:30.096] [Node B] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-24 14:38:30.118] [Node B] Active neighbors after failure: ['A']
+[2026-09-24 14:38:42.663] [Node C] Node started on 127.0.0.1:5003
+[2026-09-24 14:38:42.665] [Node C] Original neighbors: ['A', 'D', 'E']
+[2026-09-24 14:38:42.668] [Node A] TOPOLOGY RECOVERY: Node C
+[2026-09-24 14:38:42.668] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:42.691] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:43.669] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:43.670] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:44.670] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:44.671] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:45.670] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:45.672] [Node C] WinError 10054 received; node continues running
+[2026-09-24 14:38:45.672] [Node C] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-24 14:38:45.694] [Node C] Active neighbors after failure: ['A', 'E']
+[2026-09-24 14:38:45.696] [Node C] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-24 14:38:45.697] [Node C] Active neighbors after failure: ['A']
+[2026-09-24 14:38:58.708] [Node D] Node started on 127.0.0.1:5004
+[2026-09-24 14:38:58.709] [Node D] Original neighbors: ['A', 'C', 'E']
+[2026-09-24 14:38:58.712] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:38:58.712] [Node C] TOPOLOGY RECOVERY: Node D
+[2026-09-24 14:38:58.712] [Node A] TOPOLOGY RECOVERY: Node D
+[2026-09-24 14:38:59.713] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:39:00.714] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:39:01.715] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:39:01.716] [Node D] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-24 14:39:01.738] [Node D] Active neighbors after failure: ['A', 'C']
+[2026-09-24 14:39:07.315] [Node E] Node started on 127.0.0.1:5005
+[2026-09-24 14:39:07.317] [Node E] Original neighbors: ['B', 'C', 'D']
+[2026-09-24 14:39:07.320] [Node D] TOPOLOGY RECOVERY: Node E
+[2026-09-24 14:39:07.320] [Node C] TOPOLOGY RECOVERY: Node E
+[2026-09-24 14:39:07.319] [Node B] TOPOLOGY RECOVERY: Node E
+[2026-09-24 14:43:23.467] [Node A] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node None
+[2026-09-24 14:43:23.469] [Node A] Unique packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.470] [Node A] Active neighbors: ['B', 'C', 'D']
+[2026-09-24 14:43:23.472] [Node A] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node B using P=0.7 attempt=1
+[2026-09-24 14:43:23.473] [Node B] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node A
+[2026-09-24 14:43:23.474] [Node B] Unique packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.476] [Node B] Active neighbors: ['A', 'E']
+[2026-09-24 14:43:23.477] [Node B] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node E using P=0.7 attempt=1
+[2026-09-24 14:43:23.473] [Node A] Probabilistic drop for packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 toward Node C attempt=1
+[2026-09-24 14:43:23.496] [Node A] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node C using P=0.7 attempt=2
+[2026-09-24 14:43:23.478] [Node E] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node B
+[2026-09-24 14:43:23.501] [Node E] Unique packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.502] [Node E] Packet delivered: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 Path: A -> B -> E
+[2026-09-24 14:43:23.497] [Node C] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node A
+[2026-09-24 14:43:23.519] [Node C] Unique packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.520] [Node C] Active neighbors: ['A', 'D', 'E']
+[2026-09-24 14:43:23.522] [Node C] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node D using P=0.7 attempt=1
+[2026-09-24 14:43:23.524] [Node C] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node E using P=0.7 attempt=1
+[2026-09-24 14:43:23.499] [Node A] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node D using P=0.7 attempt=1
+[2026-09-24 14:43:23.500] [Node D] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node A
+[2026-09-24 14:43:23.542] [Node D] Unique packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.544] [Node D] Active neighbors: ['A', 'C', 'E']
+[2026-09-24 14:43:23.524] [Node E] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node C
+[2026-09-24 14:43:23.547] [Node E] Duplicate packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.546] [Node D] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node C using P=0.7 attempt=1
+[2026-09-24 14:43:23.568] [Node D] Probabilistic drop for packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 toward Node E attempt=1
+[2026-09-24 14:43:23.570] [Node D] Forwarded packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 to Node E using P=0.7 attempt=2
+[2026-09-24 14:43:23.572] [Node D] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node C
+[2026-09-24 14:43:23.573] [Node D] Duplicate packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.546] [Node C] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node D
+[2026-09-24 14:43:23.589] [Node C] Duplicate packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:23.571] [Node E] Received packet 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49 from Node D
+[2026-09-24 14:43:23.623] [Node E] Duplicate packet received: 1ae5c6a5-a6e0-49fe-80bd-be8b67542e49
+[2026-09-24 14:43:44.392] [Node B] Node shutting down
+[2026-09-24 14:43:44.622] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:43:44.790] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:43:45.624] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:43:45.791] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:43:46.624] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:43:46.793] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:43:47.413] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-24 14:43:47.414] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-24 14:43:47.625] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:43:47.718] [Node E] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-24 14:43:47.719] [Node E] Active neighbors after failure: ['C', 'D']
+[2026-09-24 14:43:57.971] [Node A] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node None
+[2026-09-24 14:43:57.973] [Node A] Unique packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:43:57.975] [Node A] Active neighbors: ['C', 'D']
+[2026-09-24 14:43:57.976] [Node A] Probabilistic drop for packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 toward Node C attempt=1
+[2026-09-24 14:43:57.977] [Node A] Forwarded packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 to Node C using P=0.7 attempt=2
+[2026-09-24 14:43:57.979] [Node A] Forwarded packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 to Node D using P=0.7 attempt=1
+[2026-09-24 14:43:57.978] [Node C] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node A
+[2026-09-24 14:43:58.000] [Node C] Unique packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:43:58.003] [Node C] Active neighbors: ['A', 'D', 'E']
+[2026-09-24 14:43:58.005] [Node C] Forwarded packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 to Node D using P=0.7 attempt=1
+[2026-09-24 14:43:58.007] [Node C] Probabilistic drop for packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 toward Node E attempt=1
+[2026-09-24 14:43:58.009] [Node C] Forwarded packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 to Node E using P=0.7 attempt=2
+[2026-09-24 14:43:57.980] [Node D] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node A
+[2026-09-24 14:43:58.024] [Node D] Unique packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:43:58.025] [Node D] Active neighbors: ['A', 'C', 'E']
+[2026-09-24 14:43:58.027] [Node D] Probabilistic drop for packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 toward Node C attempt=1
+[2026-09-24 14:43:58.028] [Node D] Probabilistic drop for packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 toward Node C attempt=2
+[2026-09-24 14:43:58.009] [Node E] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node C
+[2026-09-24 14:43:58.031] [Node C] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node D
+[2026-09-24 14:43:58.033] [Node C] Duplicate packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:43:58.031] [Node D] Forwarded packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 to Node C using P=0.7 attempt=3
+[2026-09-24 14:43:58.054] [Node D] Forwarded packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 to Node E using P=0.7 attempt=1
+[2026-09-24 14:43:58.055] [Node D] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node C
+[2026-09-24 14:43:58.057] [Node D] Duplicate packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:43:58.032] [Node E] Unique packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:43:58.076] [Node E] Packet delivered: 7b157382-33b7-43d5-9d90-e41b9fdb15d5 Path: A -> C -> E
+[2026-09-24 14:43:58.078] [Node E] Received packet 7b157382-33b7-43d5-9d90-e41b9fdb15d5 from Node D
+[2026-09-24 14:43:58.079] [Node E] Duplicate packet received: 7b157382-33b7-43d5-9d90-e41b9fdb15d5
+[2026-09-24 14:44:16.651] [Node C] Node shutting down
+[2026-09-24 14:44:16.820] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:44:17.061] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:44:17.652] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:44:17.820] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:44:18.062] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:44:18.654] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:44:18.821] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:44:19.063] [Node D] WinError 10054 received; node continues running
+[2026-09-24 14:44:19.166] [Node D] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-24 14:44:19.167] [Node D] Active neighbors after failure: ['A', 'E']
+[2026-09-24 14:44:19.257] [Node E] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-24 14:44:19.259] [Node E] Active neighbors after failure: ['D']
+[2026-09-24 14:44:19.447] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-24 14:44:19.449] [Node A] Active neighbors after failure: ['D']
+[2026-09-24 14:44:25.849] [Node A] Received packet b820e3fd-a8ff-475a-95c5-779a7a2c7c24 from Node None
+[2026-09-24 14:44:25.850] [Node A] Unique packet received: b820e3fd-a8ff-475a-95c5-779a7a2c7c24
+[2026-09-24 14:44:25.852] [Node A] Active neighbors: ['D']
+[2026-09-24 14:44:25.854] [Node A] Forwarded packet b820e3fd-a8ff-475a-95c5-779a7a2c7c24 to Node D using P=0.7 attempt=1
+[2026-09-24 14:44:25.854] [Node D] Received packet b820e3fd-a8ff-475a-95c5-779a7a2c7c24 from Node A
+[2026-09-24 14:44:25.877] [Node D] Unique packet received: b820e3fd-a8ff-475a-95c5-779a7a2c7c24
+[2026-09-24 14:44:25.878] [Node D] Active neighbors: ['A', 'E']
+[2026-09-24 14:44:25.880] [Node D] Forwarded packet b820e3fd-a8ff-475a-95c5-779a7a2c7c24 to Node E using P=0.7 attempt=1
+[2026-09-24 14:44:25.881] [Node E] Received packet b820e3fd-a8ff-475a-95c5-779a7a2c7c24 from Node D
+[2026-09-24 14:44:25.906] [Node E] Unique packet received: b820e3fd-a8ff-475a-95c5-779a7a2c7c24
+[2026-09-24 14:44:25.908] [Node E] Packet delivered: b820e3fd-a8ff-475a-95c5-779a7a2c7c24 Path: A -> D -> E
+[2026-09-24 14:44:34.668] [Node D] Node shutting down
+[2026-09-24 14:44:34.836] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:44:35.668] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:44:35.836] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:44:36.670] [Node E] WinError 10054 received; node continues running
+[2026-09-24 14:44:36.837] [Node A] WinError 10054 received; node continues running
+[2026-09-24 14:44:37.283] [Node E] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-24 14:44:37.285] [Node E] Active neighbors after failure: []
+[2026-09-24 14:44:37.474] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-24 14:44:37.475] [Node A] Active neighbors after failure: []
+[2026-09-24 14:44:39.254] [Node A] Received packet 6e760ee6-ac2c-4672-9032-0f134a9c5048 from Node None
+[2026-09-24 14:44:39.255] [Node A] Unique packet received: 6e760ee6-ac2c-4672-9032-0f134a9c5048
+[2026-09-24 14:44:39.257] [Node A] Active neighbors: []
+[2026-09-25 11:46:19.643] [Node A] Node started on 127.0.0.1:5001
+[2026-09-25 11:46:19.645] [Node A] Original neighbors: ['B', 'C', 'D']
+[2026-09-25 11:46:19.647] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:19.648] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:19.649] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:20.648] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:20.649] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:20.651] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:21.649] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:21.651] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:21.652] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:22.651] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:22.652] [Node A] WinError 10054 received; node continues running
+[2026-09-25 11:46:22.651] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-25 11:46:22.673] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-25 11:46:22.674] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-25 11:46:22.675] [Node A] Active neighbors after failure: ['D']
+[2026-09-25 11:46:22.676] [Node A] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-25 11:46:22.677] [Node A] Active neighbors after failure: []
+[2026-09-25 11:46:29.635] [Node B] Node started on 127.0.0.1:5002
+[2026-09-25 11:46:29.636] [Node B] Original neighbors: ['A', 'E']
+[2026-09-25 11:46:29.638] [Node A] TOPOLOGY RECOVERY: Node B
+[2026-09-25 11:46:29.638] [Node B] WinError 10054 received; node continues running
+[2026-09-25 11:46:30.639] [Node B] WinError 10054 received; node continues running
+[2026-09-25 11:46:31.640] [Node B] WinError 10054 received; node continues running
+[2026-09-25 11:46:32.640] [Node B] WinError 10054 received; node continues running
+[2026-09-25 11:46:32.641] [Node B] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-25 11:46:32.663] [Node B] Active neighbors after failure: ['A']
+[2026-09-25 11:46:37.298] [Node C] Node started on 127.0.0.1:5003
+[2026-09-25 11:46:37.299] [Node C] Original neighbors: ['A', 'D', 'E']
+[2026-09-25 11:46:37.301] [Node A] TOPOLOGY RECOVERY: Node C
+[2026-09-25 11:46:37.301] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:37.324] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:38.302] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:38.304] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:39.303] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:39.304] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:40.304] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:40.306] [Node C] WinError 10054 received; node continues running
+[2026-09-25 11:46:40.305] [Node C] DYNAMIC FAILURE DETECTED: Node D
+[2026-09-25 11:46:40.327] [Node C] Active neighbors after failure: ['A', 'E']
+[2026-09-25 11:46:40.328] [Node C] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-25 11:46:40.328] [Node C] Active neighbors after failure: ['A']
+[2026-09-25 11:46:54.706] [Node D] Node started on 127.0.0.1:5004
+[2026-09-25 11:46:54.708] [Node D] Original neighbors: ['A', 'C', 'E']
+[2026-09-25 11:46:54.710] [Node A] TOPOLOGY RECOVERY: Node D
+[2026-09-25 11:46:54.710] [Node C] TOPOLOGY RECOVERY: Node D
+[2026-09-25 11:46:54.710] [Node D] WinError 10054 received; node continues running
+[2026-09-25 11:46:55.710] [Node D] WinError 10054 received; node continues running
+[2026-09-25 11:46:56.711] [Node D] WinError 10054 received; node continues running
+[2026-09-25 11:46:57.713] [Node D] WinError 10054 received; node continues running
+[2026-09-25 11:46:57.713] [Node D] DYNAMIC FAILURE DETECTED: Node E
+[2026-09-25 11:46:57.735] [Node D] Active neighbors after failure: ['A', 'C']
+[2026-09-25 11:47:04.726] [Node E] Node started on 127.0.0.1:5005
+[2026-09-25 11:47:04.727] [Node E] Original neighbors: ['B', 'C', 'D']
+[2026-09-25 11:47:04.729] [Node C] TOPOLOGY RECOVERY: Node E
+[2026-09-25 11:47:04.729] [Node B] TOPOLOGY RECOVERY: Node E
+[2026-09-25 11:47:04.729] [Node D] TOPOLOGY RECOVERY: Node E
+[2026-09-25 11:51:32.086] [Node A] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node None
+[2026-09-25 11:51:32.087] [Node A] Unique packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.088] [Node A] Active neighbors: ['B', 'C', 'D']
+[2026-09-25 11:51:32.090] [Node A] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node B using P=0.7 attempt=1
+[2026-09-25 11:51:32.092] [Node A] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node C using P=0.7 attempt=1
+[2026-09-25 11:51:32.093] [Node A] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node D using P=0.7 attempt=1
+[2026-09-25 11:51:32.094] [Node D] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node A
+[2026-09-25 11:51:32.095] [Node D] Unique packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.097] [Node D] Active neighbors: ['A', 'C', 'E']
+[2026-09-25 11:51:32.098] [Node D] Probabilistic drop for packet ce586a5a-4889-4b1d-bf2a-8e912266005f toward Node C attempt=1
+[2026-09-25 11:51:32.099] [Node D] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node C using P=0.7 attempt=2
+[2026-09-25 11:51:32.101] [Node D] Probabilistic drop for packet ce586a5a-4889-4b1d-bf2a-8e912266005f toward Node E attempt=1
+[2026-09-25 11:51:32.102] [Node D] Probabilistic drop for packet ce586a5a-4889-4b1d-bf2a-8e912266005f toward Node E attempt=2
+[2026-09-25 11:51:32.103] [Node D] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node E using P=0.7 attempt=3
+[2026-09-25 11:51:32.091] [Node B] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node A
+[2026-09-25 11:51:32.112] [Node B] Unique packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.092] [Node C] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node A
+[2026-09-25 11:51:32.114] [Node C] Unique packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.115] [Node C] Active neighbors: ['A', 'D', 'E']
+[2026-09-25 11:51:32.117] [Node C] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node D using P=0.7 attempt=1
+[2026-09-25 11:51:32.118] [Node C] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node E using P=0.7 attempt=1
+[2026-09-25 11:51:32.120] [Node C] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node D
+[2026-09-25 11:51:32.121] [Node C] Duplicate packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.104] [Node E] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node D
+[2026-09-25 11:51:32.126] [Node E] Unique packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.127] [Node E] Packet delivered: ce586a5a-4889-4b1d-bf2a-8e912266005f Path: A -> D -> E
+[2026-09-25 11:51:32.129] [Node E] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node C
+[2026-09-25 11:51:32.130] [Node E] Duplicate packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.113] [Node B] Active neighbors: ['A', 'E']
+[2026-09-25 11:51:32.136] [Node B] Forwarded packet ce586a5a-4889-4b1d-bf2a-8e912266005f to Node E using P=0.7 attempt=1
+[2026-09-25 11:51:32.117] [Node D] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node C
+[2026-09-25 11:51:32.139] [Node D] Duplicate packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 11:51:32.136] [Node E] Received packet ce586a5a-4889-4b1d-bf2a-8e912266005f from Node B
+[2026-09-25 11:51:32.190] [Node E] Duplicate packet received: ce586a5a-4889-4b1d-bf2a-8e912266005f
+[2026-09-25 12:26:16.407] [Node B] Node shutting down
+[2026-09-25 12:26:16.509] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:26:16.509] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:26:17.510] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:26:17.510] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:26:18.511] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:26:18.511] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:26:19.511] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:26:19.511] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:26:19.792] [Node A] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-25 12:26:19.794] [Node A] Active neighbors after failure: ['C', 'D']
+[2026-09-25 12:26:19.792] [Node E] DYNAMIC FAILURE DETECTED: Node B
+[2026-09-25 12:26:19.815] [Node E] Active neighbors after failure: ['C', 'D']
+[2026-09-25 12:27:50.908] [Node A] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node None
+[2026-09-25 12:27:50.909] [Node A] Unique packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:27:50.910] [Node A] Active neighbors: ['C', 'D']
+[2026-09-25 12:27:50.911] [Node A] Forwarded packet 87f22624-0806-4561-91f1-11f594e60e91 to Node C using P=0.7 attempt=1
+[2026-09-25 12:27:50.913] [Node A] Forwarded packet 87f22624-0806-4561-91f1-11f594e60e91 to Node D using P=0.7 attempt=1
+[2026-09-25 12:27:50.912] [Node C] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node A
+[2026-09-25 12:27:50.935] [Node C] Unique packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:27:50.936] [Node C] Active neighbors: ['A', 'D', 'E']
+[2026-09-25 12:27:50.938] [Node C] Forwarded packet 87f22624-0806-4561-91f1-11f594e60e91 to Node D using P=0.7 attempt=1
+[2026-09-25 12:27:50.939] [Node C] Probabilistic drop for packet 87f22624-0806-4561-91f1-11f594e60e91 toward Node E attempt=1
+[2026-09-25 12:27:50.940] [Node C] Forwarded packet 87f22624-0806-4561-91f1-11f594e60e91 to Node E using P=0.7 attempt=2
+[2026-09-25 12:27:50.913] [Node D] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node A
+[2026-09-25 12:27:50.956] [Node D] Unique packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:27:50.957] [Node D] Active neighbors: ['A', 'C', 'E']
+[2026-09-25 12:27:50.959] [Node D] Probabilistic drop for packet 87f22624-0806-4561-91f1-11f594e60e91 toward Node C attempt=1
+[2026-09-25 12:27:50.960] [Node D] Forwarded packet 87f22624-0806-4561-91f1-11f594e60e91 to Node C using P=0.7 attempt=2
+[2026-09-25 12:27:50.962] [Node D] Forwarded packet 87f22624-0806-4561-91f1-11f594e60e91 to Node E using P=0.7 attempt=1
+[2026-09-25 12:27:50.963] [Node D] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node C
+[2026-09-25 12:27:50.964] [Node D] Duplicate packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:27:50.961] [Node C] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node D
+[2026-09-25 12:27:50.983] [Node C] Duplicate packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:27:50.941] [Node E] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node C
+[2026-09-25 12:27:51.013] [Node E] Unique packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:27:51.015] [Node E] Packet delivered: 87f22624-0806-4561-91f1-11f594e60e91 Path: A -> C -> E
+[2026-09-25 12:27:51.019] [Node E] Received packet 87f22624-0806-4561-91f1-11f594e60e91 from Node D
+[2026-09-25 12:27:51.023] [Node E] Duplicate packet received: 87f22624-0806-4561-91f1-11f594e60e91
+[2026-09-25 12:30:08.359] [Node C] Node shutting down
+[2026-09-25 12:30:08.696] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:30:08.696] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:30:08.696] [Node D] WinError 10054 received; node continues running
+[2026-09-25 12:30:09.697] [Node D] WinError 10054 received; node continues running
+[2026-09-25 12:30:09.697] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:30:09.697] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:30:10.697] [Node D] WinError 10054 received; node continues running
+[2026-09-25 12:30:10.698] [Node E] WinError 10054 received; node continues running
+[2026-09-25 12:30:10.698] [Node A] WinError 10054 received; node continues running
+[2026-09-25 12:30:11.538] [Node D] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-25 12:30:11.540] [Node D] Active neighbors after failure: ['A', 'E']
+[2026-09-25 12:30:11.564] [Node A] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-25 12:30:11.565] [Node A] Active neighbors after failure: ['D']
+[2026-09-25 12:30:11.574] [Node E] DYNAMIC FAILURE DETECTED: Node C
+[2026-09-25 12:30:11.576] [Node E] Active neighbors after failure: ['D']
